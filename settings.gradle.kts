@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "iTube"
+rootProject.name = "News App"
 include(":app")
  

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.itube"
+    namespace = "com.example.newsapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.itube"
+        applicationId = "com.example.newsapp"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -38,7 +38,6 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation("androidx.room:room-runtime:2.6.1")
-    implementation(libs.recyclerview)
     annotationProcessor("androidx.room:room-compiler:2.6.1")
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
